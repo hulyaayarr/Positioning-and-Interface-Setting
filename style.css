@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+.bg-dark{
+    background-color: #070103 !important;
+    color:#FFF;
+}
+.bg-dark a {
+    color: #FFF;
+    font-size: 20px;
+}
+.bg-dark button {
+    color: #FFF;
+    font-size: 20px;
+}
+.icons{
+    font-size: 48px; 
+    color: rgb(19, 113, 253);
+}
+.navbar-toggler{
+    border: 1px solid rgba(255,255,255, 0.5) ;
+    background-color: transparent;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.lighter-color {
+    color: #FFFFFF80;
+    font-size: 20px;
+}
+.bg-light{
+    background-color: #F8F9FA;
+    color: #212529;
+}
+.diff{
+    font-size: 22px;
+
+}
+.image-border{
+    border-radius: 50%;
+}
+.change {
+    color: #0D6EFD;
+}
+.new-color{
+    color: #6c757d;
+}
+.cards {
+    border-style: none !important;
+    box-shadow: 5px 5px 10px #88888857;
+}
+.card-footer {
+    border-style: none !important;
+    background-color: #FFF!important;
+}
+.blue_bg{
+    background-color: rgb(35,123,253);
+    font-size: 24px;
+    color: #FFF;
+}
+.round {
+    border-radius: 10px;
+}
+.text-color{
+    color: #FFFFFF80;
+    font-size: 16px;
+}
+.footer{
+    background-color: #212529;
+    color: #FFF !important;
+}
