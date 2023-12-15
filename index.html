@@ -26,11 +26,13 @@
 
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark-shade">
       <div class="container px-5">
         <div class="d-flex align-items-center">
           <i class="fa-solid fa-section icons"></i>
-          <a class="navbar-brand fw-bold" href="#">&nbsp;Law Office</a>
+          <p class="navbar-brand fw-bold text-white mt-2" href="#">
+            &nbsp;&nbsp;Law Office
+          </p>
         </div>
         <button
           class="navbar-toggler"
@@ -45,20 +47,56 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li><a class="nav-link" href="#">Home</a></li>
-            <li><a class="nav-link" href="#">Our Services</a></li>
-            <li><a class="nav-link" href="#">Contact</a></li>
+            <li><a class="nav-link text-white" href="/index.html">Home</a></li>
+            <li><a class="nav-link text-white" href="/about.html">About</a></li>
+            <li>
+              <a class="nav-link text-white" href="/contact.html">Contact</a>
+            </li>
+            <li><a class="nav-link text-white" href="#">Pricing</a></li>
+            <li><a class="nav-link text-white" href="#">FAQ</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blog Home</a></li>
+                <li><a class="dropdown-item" href="#">Blog Post</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Portfolio
+              </a>
+              <ul class="dropdown-menu text-black">
+                <li>
+                  <a class="dropdown-item" href="#">Portfolio Overview</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Portfolio Item</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <!--Header-->
-    <header class="bg-dark">
+    <header class="bg-dark-shade">
       <div class="container text-center py-5">
         <div class="row align-items-center">
           <div class="col-xs-12 col-xl-7">
-            <h1>Client Module</h1>
+            <h1 class="text-white">Client Module</h1>
             <p class="mt-1 lighter-color">
               Your clients can track their cases
               <br />
@@ -75,7 +113,11 @@
             </button>
           </div>
           <div class="col-xl-5 d-xl-block d-none">
-            <img class="img-fluid" src="./assets/back-ground.jpg" alt="" />
+            <img
+              class="img-fluid"
+              src="./assets/images/back-ground.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -157,7 +199,7 @@
             <div class="col-12 p-4">
               <img
                 class="image-border"
-                src="assets/oliver_wendell_holmes_jr.jpg"
+                src="assets/images/oliver_wendell_holmes_jr.jpg"
                 alt=""
               />
               <b
@@ -189,7 +231,11 @@
         <div class="row row-cols-1 g-4 justify-content-between mt-3">
           <div class="col-md-12 col-lg-4">
             <div class="card h-100 cards">
-              <img src="assets/picture1.jpg" class="card-img-top" alt="..." />
+              <img
+                src="assets/images/picture1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <span class="badge rounded-pill text-bg-primary my-2 py-2"
                   >News</span
@@ -224,7 +270,11 @@
 
           <div class="col-md-12 col-lg-4">
             <div class="card h-100 cards">
-              <img src="assets/picture2.jpg" class="card-img-top" alt="..." />
+              <img
+                src="assets/images/picture2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
 
               <div class="card-body">
                 <span class="badge rounded-pill text-bg-primary my-2 py-2"
@@ -261,7 +311,11 @@
 
           <div class="col-md-12 col-lg-4">
             <div class="card h-100 cards">
-              <img src="assets/picture3.jpg" class="card-img-top" alt="..." />
+              <img
+                src="assets/images/picture3.jpg"
+                class="card-img-top"
+                alt="..."
+              />
 
               <div class="card-body">
                 <span class="badge rounded-pill text-bg-primary my-2 py-2"
