@@ -23,3 +23,9 @@
 .round {
   border-radius: 10px;
 }
+.head {
+  background-size: cover;
+
+  background-image: url("./assets/images/back-ground.jpg");
+  background-repeat: no-repeat;
+}
